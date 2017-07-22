@@ -1,0 +1,38 @@
+li {
+	border: 2px solid red;
+}
+
+#litBreh {
+	background: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+/*Star*/
+
+/*Descendant Selector*/
+ol li {
+	border: 5px solid blue;
+}
+
+/*Adjacent Selector 
+h4 + ul
+*/
+
+/*Attribute Selectors
+elements based off of any attribute
+a[href="http://www.google.com"] { 
+	background: blue;
+ }
+*/
+input[type="text"] {
+	background: blue;
+}
+
+/*nth of type
+ul:nth-of-type(3) {
+	background: purple;
+};
+*/
